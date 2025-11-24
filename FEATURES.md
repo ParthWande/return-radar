@@ -11,9 +11,9 @@ When users return to Pulse after days or weeks away, they face a critical produc
 
 Traditional productivity tools assume **continuous engagement**. They don't handle the reality of modern work: frequent context switches, unexpected absences, and competing priorities.
 
-## The Solution: Return Radar
+## The Solution: Return Radar (Currently a simulation of the Idea)
 
-**Return Radar** is an intelligent re-engagement system that automatically detects when you've been inactive and resurfaces dormant work contexts when you return.
+**Return Radar** is an intelligent re-engagement system that automatically detects when you've been inactive and resurfaces dormant work contexts when you return giving you a Catch Up Vutton leading to a return-radar page.
 
 ### How It Works
 
@@ -29,7 +29,8 @@ Traditional productivity tools assume **continuous engagement**. They don't hand
    - What's now overdue
    - What's coming up soon
    - Who mentioned this work
-5. **Actionable Guidance**: Suggests specific next steps to resume each project
+5. **Actionable Guidance**: Suggests specific next steps to resume each project:
+   - If the user has not returned in a while (1-2 weeks) there will be a button that leads to my landing page which helps you to laser focus on the tasks that you left behind from the break.
 
 ### Key Features
 
