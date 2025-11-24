@@ -1,4 +1,4 @@
-# Return Radar - MVP Prototype
+# Return Radar - MVP Prototype (Simulation)
 
 Intelligent re-engagement system for Pulse AI that automatically detects dormant work and helps users resume productivity after absence.
 
