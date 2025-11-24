@@ -281,34 +281,6 @@ Just replace `calculateUrgencyScore()` with `await predictUrgencyML()` once mode
 
 **Timeline**: Ship rule-based MVP → Collect 3-6 months of interaction data → Train ML model → A/B test → Gradual rollout
 
----
-
-## 📦 Project Structure
-
-return-radar/
-├── README.md (this file)
-├── FEATURE_DESCRIPTION.md
-├── USE_CASE.md
-├── package.json
-└── src/
-├── types/index.ts # TypeScript types
-├── services/
-│ ├── UrgencyScorer.ts # Urgency calculation (ML-ready)
-│ ├── ContextBuilder.ts # Context reconstruction
-│ ├── ActionGenerator.ts # Action suggestions
-│ └── DormancyDetector.ts # Main algorithm
-├── components/
-│ ├── Header.tsx
-│ ├── StatsGrid.tsx
-│ ├── Controls.tsx
-│ ├── WelcomeBanner.tsx
-│ ├── ProjectCard.tsx
-│ └── EmptyState.tsx
-├── data/mockProjects.ts # Demo data
-├── App.tsx # Main component
-└── App.css # Styling
----
-
 ## 🎨 UI/UX Choices
 
 ### Design System Integration
@@ -359,27 +331,3 @@ return-radar/
 
 ---
 
-## 🤔 Open Questions for Product Team
-
-1. **Threshold tuning**: Is 0.3 the right urgency cutoff, or should it be configurable?
-2. **Notification timing**: Show Return Radar immediately on login, or after 30 seconds?
-3. **Mobile experience**: How should this work in mobile app? Push notification vs. in-app banner?
-4. **Integration point**: Standalone page, modal overlay, or sidebar widget?
-5. **ML timeline**: Should we collect training data now (with logging) even before deploying ML?
-
----
-
-## 📬 Contact
-
-Built for the Pulse AI Full-Stack Engineer Intern position.
-
-**Key Strengths**:
-- ✅ Solves real user pain (context loss after absence)
-- ✅ Production-ready architecture (service layer pattern, ML hooks)
-- ✅ Professional code quality (TypeScript, clean components)
-- ✅ Thoughtful UX (urgency sorting, actionable insights)
-- ✅ Clear ML strategy (pragmatic phased approach, not over-engineered)
-
----
-
-Thank you for reviewing this submission!
